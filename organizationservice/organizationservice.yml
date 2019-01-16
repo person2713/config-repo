@@ -1,0 +1,2 @@
+server.port: 8082
+example.organization.property: "I AM THE DEFAULT ORGANIZATION SERVICE"
