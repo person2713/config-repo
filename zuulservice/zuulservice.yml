@@ -2,4 +2,5 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
+zuul.routes.authenticationservice: /auth/**
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
