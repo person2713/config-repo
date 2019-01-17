@@ -4,3 +4,4 @@ zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+signing.key: "345345fsdfsf5345"
