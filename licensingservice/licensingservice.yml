@@ -11,4 +11,9 @@ spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 redis.server: "redis"
 redis.port: "6379"
-signing.key: "345345fsdfsf5345"
+signing.key: "345345fsdfsf5345"\
+spring.cloud.stream.bindings.inboundOrgChanges.destination: orgChangeTopic
+spring.cloud.stream.bindings.inboundOrgChanges.content-type: application/json
+spring.cloud.stream.bindings.inboundOrgChanges.group: licensingGroup
+spring.cloud.stream.kafka.binder.zkNodes: localhost
+spring.cloud.stream.kafka.binder.brokers: localhost
